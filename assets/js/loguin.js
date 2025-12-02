@@ -39,7 +39,7 @@ function Validarcredenciales() {
         .then(data => {
             let encontrado = false;
             let rol = 'nada';
-
+            
             for (let i = 0; i < data.length; i++) {
                 const users = data[i];
 
